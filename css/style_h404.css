@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(255,255,255,1) 100%); 
+}
+.container , .row , div , h1 , p , b , span {
+    background: transparent;
+}
+.h404 .section div{
+    text-align: center;
+}
+.h404 .section .col-lg-12:nth-of-type(1){
+    margin-top: 10px;
+
+}
+.h404 .section .col-lg-4{
+    margin-bottom: 43px;
+}
+.h404 .section .col-lg-4 p{
+    font-size: 100px;
+    color: #6d6d6d;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+.h404 .section .col-lg-12 p{
+    font-size: 300px;
+    color: #6d6d6d;
+    margin-bottom: 0px;
+
+}
+.h404 .section .pag{
+    animation: pag 1.5s linear infinite;
+
+}
+.h404 .section .nt{
+    animation: nt 1.5s linear infinite;
+}
+.h404 .section .fnd{
+    animation: fnd 1.5s linear infinite;
+}
+@keyframes pag{
+    0%{
+        transform: translateX(-5px);
+    }
+    50%{
+        transform: translateX(5px);
+    }
+    100%{
+        transform: translateX(-5px);
+    }
+}
+@keyframes nt{
+    0%{
+        transform: translateY(-5px);
+    }
+    50%{
+        transform: translateY(5px);
+    }
+    100%{
+        transform: translateY(-5px);
+    }
+}
+@keyframes fnd{
+    0%{
+        transform: translateY(5px);
+    }
+    50%{
+        transform: translateY(-5px);
+    }
+    100%{
+        transform: translateY(5px);
+    }
+}
