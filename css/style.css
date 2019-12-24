@@ -672,7 +672,7 @@ footer .col-lg-4 .col-lg- ul li a{
         text-align: center;
     }
     .icons img{
-        margin-left: 46%;
+        margin-left: 44%;
     }
     /* contact.html */
     form textarea{
@@ -693,5 +693,9 @@ footer .col-lg-4 .col-lg- ul li a{
     .chuvak .col-lg-6 img{
         width: 100%;
         height: auto;
+    }
+     /* ABOUT.html */
+    .icons img{
+        margin-left: 44%;
     }
 }
