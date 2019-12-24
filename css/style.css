@@ -690,6 +690,9 @@ footer .col-lg-4 .col-lg- ul li a{
         width: 98%;
         transform: translateX(5px);
     }
+    .forma form .col-lg-8 input{
+        width: 99%;
+    }
     .chuvak .col-lg-6 img{
         width: 100%;
         height: auto;
